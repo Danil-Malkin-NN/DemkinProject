@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.DemkinProject.AppBarOverlay"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/places"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Place" />
+
+        <Button
+            android:id="@+id/favorit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="favorit" />
+
+        <Button
+            android:id="@+id/citchen"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Citchen" />
+
+        <Button
+            android:id="@+id/eat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Eat" />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
